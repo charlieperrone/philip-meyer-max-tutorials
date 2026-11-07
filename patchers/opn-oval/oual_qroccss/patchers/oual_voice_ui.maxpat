@@ -1467,9 +1467,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "float", "bang" ],
+                    "outlettype": [ "bang", "float" ],
                     "patching_rect": [ 243.0, 322.0, 29.5, 22.0 ],
-                    "text": "t f b"
+                    "text": "t b f"
                 }
             },
             {
@@ -1950,21 +1950,21 @@
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-25", 1 ]
+                    "source": [ "obj-25", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-16", 1 ],
                     "order": 1,
-                    "source": [ "obj-25", 0 ]
+                    "source": [ "obj-25", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-34", 1 ],
                     "order": 0,
-                    "source": [ "obj-25", 0 ]
+                    "source": [ "obj-25", 1 ]
                 }
             },
             {
